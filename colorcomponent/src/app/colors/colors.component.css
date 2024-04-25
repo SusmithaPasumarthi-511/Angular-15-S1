@@ -1,0 +1,24 @@
+
+div{
+        margin: auto;
+        width: 640px; 
+        padding: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        color: #2E475D;    
+        font-size: medium;
+      
+}
+.colorchanger {
+    text-align: center;
+    align-items: center ;
+    margin: auto;
+    width: 640px; 
+    padding:50px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: #2E475D;    
+  }
+  h1{
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
