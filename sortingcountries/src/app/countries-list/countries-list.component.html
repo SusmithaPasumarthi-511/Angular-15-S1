@@ -1,0 +1,18 @@
+<p>countries-list works!</p>
+<div>
+    <h2>List of Countries</h2>
+    <input type="text" placeholder="Enter a country" [(ngModel)]="newCountry">
+    <button (click)="addCountry()">Add Country</button>
+    <div>
+        <div>
+            <label>Sort by:</label>
+            <select [(ngModel)]="sortBy">
+                <option value="select" selected >Select</option>
+              <option value="asc">Ascending</option>
+              <option value="desc">Descending</option>
+            </select>
+          </div>
+          <ul>
+            <li *ngFor="let country of countries | sortCountries:sortBy">{{ country }}</li>
+          </ul>
+        </div>
