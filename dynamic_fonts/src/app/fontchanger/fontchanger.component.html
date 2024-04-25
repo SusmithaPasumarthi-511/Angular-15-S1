@@ -1,0 +1,9 @@
+<div id="fontSizeAdjuster">
+    <button (click)="decreaseFontSize()">Decrease Font Size</button>
+    <button (click)="increaseFontSize()">Increase Font Size</button>
+  </div>
+
+  
+ <div>Current font size:{{fontSize}} </div>
+  <p id="content" [ngStyle]="{'font-size.px': fontSize}">Angular 15 - S1 Handson Exercise.</p>
+  
